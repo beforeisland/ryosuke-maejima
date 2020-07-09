@@ -1,0 +1,47 @@
+/* [ヘッダー] */
+/* ヘッダー全体float clear-fix */
+#pageHead .menuFix:after {
+    content: "";
+    clear: both;
+    display: block;  
+}
+
+/* サイトタイトルロゴ */
+
+#pageHead .menuFix .siteTitle-logo {
+    padding-left: 36px;
+    float: left;
+}
+
+/* グローバルナビ */
+
+#pageHead .menuFix .globalNavi {
+    float: left;
+}
+
+#pageHead .menuFix .globalNavi ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#pageHead .menuFix .globalNavi ul li {
+    list-style: none;
+    float: left;
+}
+
+/* サイドナビ */
+#pageHead .menuFix .sideNavi {
+    float: left;
+}
+
+#pageHead .menuFix .sideNavi:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#pageHead .menuFix .sideNavi .sideNavi-icon {
+    float: left;
+}
+
