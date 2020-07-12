@@ -6,11 +6,8 @@ body {
 #pageHead .menuFix {
     width: 1271;
     height: 60;
-<<<<<<< HEAD
     position: fixed;
     background-color: #FFFFFF;
-=======
->>>>>>> 32d35b041a29afde9148754073604b3166986d76
 }
 
 
@@ -94,11 +91,8 @@ body {
 #pageHead .topicPath {
     font-size: 12px;
     margin: 0 0 0 36px;
-<<<<<<< HEAD
     padding-top: 63px;
 
-=======
->>>>>>> 32d35b041a29afde9148754073604b3166986d76
 }
 
 #pageHead .topicPath a {
