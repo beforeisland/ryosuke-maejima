@@ -7,6 +7,7 @@ body {
     width: 1271;
     height: 60;
     position: fixed;
+    z-index: 1;
     background-color: #FFFFFF;
 }
 
@@ -104,3 +105,33 @@ body {
     color: #999999;
 }
 
+/* ページボディ */
+/* メインビジュアル、テキスト */
+#pageBodyMain .mainVisual {
+    position: relative;
+    margin-top: 30px;
+}
+
+#pageBodyMain .mainVisual .mainVisualText {
+    color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    margin: 0 127px;
+}
+
+#pageBodyMain .mainVisual .mainVisualText p {
+    margin: 0;
+    font-size: 20px;
+}
+
+#pageBodyMain .mainVisual .mainVisualText h2 {
+    margin: 16px 0 10px;
+    font-size: 28px;
+}
+
+/* メインビジュアル、画像 */
+#pageBodyMain .mainVisual img {
+    width: 1215px;
+    height: 250;
+    object-fit: cover;
+}
