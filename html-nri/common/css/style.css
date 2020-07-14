@@ -3,20 +3,21 @@ body {
 }
 
 /* [ヘッダー] */
+
 #pageHead .menuFix {
-    width: 1271;
-    height: 60;
+    width: 1250px;
+    height: 60px;
     position: fixed;
     z-index: 1;
     background-color: #FFFFFF;
 }
 
-
 /* ヘッダー全体float clear-fix */
+
 #pageHead .menuFix:after {
     content: "";
     clear: both;
-    display: block;  
+    display: block;
 }
 
 /* サイトタイトルロゴ */
@@ -50,7 +51,7 @@ body {
     color: #000000;
     text-decoration: none;
     display: inline-block;
-    padding: 22px 0 ;
+    padding: 22px 0;
     margin: 0 5px
 }
 
@@ -64,6 +65,7 @@ body {
 }
 
 /* サイドナビ */
+
 #pageHead .menuFix .sideNavi {
     float: right;
     height: 60px;
@@ -89,11 +91,11 @@ body {
 }
 
 /* パンくずナビ */
+
 #pageHead .topicPath {
     font-size: 12px;
     margin: 0 0 0 36px;
     padding-top: 63px;
-
 }
 
 #pageHead .topicPath a {
@@ -106,7 +108,9 @@ body {
 }
 
 /* ページボディ */
+
 /* メインビジュアル、テキスト */
+
 #pageBodyMain .mainVisual {
     position: relative;
     margin-top: 30px;
@@ -116,7 +120,8 @@ body {
     color: #FFFFFF;
     position: absolute;
     top: 50px;
-    margin: 0 127px;
+    left: 10%;
+    margin: 0 auto;
 }
 
 #pageBodyMain .mainVisual .mainVisualText p {
@@ -130,8 +135,60 @@ body {
 }
 
 /* メインビジュアル、画像 */
+
 #pageBodyMain .mainVisual img {
-    width: 1215px;
     height: 250;
     object-fit: cover;
+}
+
+/* ページボディサイズ格納 */
+#pageBodyMain .pageBodyMain-container {
+    width: 820px;
+    margin: 0 auto;
+}
+
+/* snsリンクA */
+
+#pageBodyMain .pageBodyMain-container .snsLink-typeA {
+    width: 172px;
+    height: 34px;
+    margin: 30px 0 0 628px;
+}
+
+#pageBodyMain .pageBodyMain-container .snsLink-typeA:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#pageBodyMain .pageBodyMain-container .snsLink-typeA p {
+    float: left;
+    margin: 6px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#pageBodyMain .pageBodyMain-container .snsLink-typeA ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#pageBodyMain .pageBodyMain-container .snsLink-typeA ul li {
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    margin: 0;
+}
+
+/* メイン記事 */
+
+#pageBodyMain .pageBodyMain-container .articleDetail h2 {
+    color: #000000;
+    font-size: 22px;
+    padding-left: 32px;
+    background-image: url("../images/article-icon.png");
+    background-repeat: no-repeat;
+    background-size: 22px;
+    margin: 40px 0 30px;
 }
