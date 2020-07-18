@@ -1,5 +1,6 @@
 body {
     color: #333333;
+    font-family: sans-serif ;
 }
 
 /* [ヘッダー] */
@@ -191,4 +192,62 @@ body {
     background-repeat: no-repeat;
     background-size: 22px;
     margin: 40px 0 30px;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail p {
+    font-size: 16px;
+    line-height: 1.875;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .articleDetail-Text1 {
+    margin: 0 0 16px 0;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .articleDetail-Text2 {
+    margin: 0;
+}
+
+/* ボタン */
+
+#pageBodyMain .pageBodyMain-container .articleDetail .btn {
+    margin: 40px auto 80px;
+    width: 300px;
+    height: 70px;
+    background-color: #005BAC;
+    font-size: 16px;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+} 
+
+#pageBodyMain .pageBodyMain-container .articleDetail .btn:hover {
+    opacity: 0.7;
+    transition: 0.2s linear;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .btn a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 19px 21.29px;
+    background-image: url("../../images/pdf-icon.png");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 70% 65%;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .btn a:before {
+    color: #FFFFFF;
+    content: "⟩";
+    font-size: 5px;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .btn a:hover {
+    opacity: 0.7;
+    transition: 0.2s linear;
 }
