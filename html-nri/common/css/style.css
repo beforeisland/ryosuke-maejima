@@ -285,3 +285,85 @@ body {
 #pageBodyMain .pageBodyMain-container .articleDetail .articleLink-right a:hover {
     text-decoration: underline;
 }
+
+/* メイン記事下6記事 */
+
+#pageBodyMain .pageBodyMain-container .articleNavi {
+    width: 800px;
+    height: 241px;
+    margin: 40px auto 0;
+    padding: 20px;
+    background-color: #DEECF8;
+    box-sizing: border-box;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi h3 {
+    margin: 10px 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul li {
+    font-size: 16px;
+    list-style: none;
+    background-color: #FFFFFF;
+    float: left;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    margin: 0 10px 20px;
+    position: relative;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul li:hover {
+    background-color: #F4F4F4;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(1), {
+    height: 70px;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(2),
+#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(3) {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul li a {
+    color: #0C419A;
+    text-decoration: none;
+    width: 239.98px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+#pageBodyMain .pageBodyMain-container .articleNavi ul li a:before {
+    content: "⟩";
+    font-size: 5px;
+    position: absolute;
+    left: 10px;
+    bottom: 40%;
+}
