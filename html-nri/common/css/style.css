@@ -367,3 +367,17 @@ body {
     left: 10px;
     bottom: 40%;
 }
+
+/* メイン記事・企業情報 */
+
+#pageBodyMain .companyInfo {
+    width: 1000px;
+    margin: 120px auto 0;
+}
+
+#pageBodyMain .companyInfo h2 {
+    font-size: 20px;
+    border-top: 2px solid #333333;
+    padding: 18px 0 30px;
+    margin: 0;
+}
