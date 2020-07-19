@@ -8,16 +8,21 @@ body {
 /* [ヘッダー] */
 
 #pageHead .menuFix {
-    width: 1250px;
-    height: 60px;
     position: fixed;
     z-index: 1;
     background-color: #FFFFFF;
+    width: 100%
+}
+
+#pageHead .menuFix .menuFix-container {
+    margin: 0 auto;
+    width: 1250px;
+    height: 60px;
 }
 
 /* ヘッダー全体float clear-fix */
 
-#pageHead .menuFix:after {
+#pageHead .menuFix .menuFix-container:after {
     content: "";
     clear: both;
     display: block;
@@ -25,25 +30,25 @@ body {
 
 /* サイトタイトルロゴ */
 
-#pageHead .menuFix .siteTitle-logo {
+#pageHead .menuFix .menuFix-container .siteTitle-logo {
     float: left;
     margin: 12px 0 12px 36px;
 }
 
 /* グローバルナビ */
 
-#pageHead .menuFix .globalNavi {
+#pageHead .menuFix .menuFix-container .globalNavi {
     float: left;
     height: 60px;
 }
 
-#pageHead .menuFix .globalNavi ul {
+#pageHead .menuFix .menuFix-container .globalNavi ul {
     padding-left: 160px;
     height: 100%;
     margin: 0;
 }
 
-#pageHead .menuFix .globalNavi ul li {
+#pageHead .menuFix .menuFix-container .globalNavi ul li {
     list-style: none;
     float: left;
     font-weight: bold;
@@ -51,7 +56,7 @@ body {
     font-family: sans-serif;
 }
 
-#pageHead .menuFix .globalNavi ul li a {
+#pageHead .menuFix .menuFix-container .globalNavi ul li a {
     color: #000000;
     text-decoration: none;
     display: inline-block;
@@ -59,47 +64,49 @@ body {
     margin: 0 5px
 }
 
-#pageHead .menuFix .globalNavi ul li a:hover {
+#pageHead .menuFix .menuFix-container .globalNavi ul li a:hover {
     color: #0c419a;
 }
 
-#pageHead .menuFix .globalNavi ul li a:hover {
+#pageHead .menuFix .menuFix-container .globalNavi ul li a:hover {
     transition: 0.2s linear;
     border-bottom: solid 2px #0c419a;
 }
 
 /* サイドナビ */
 
-#pageHead .menuFix .sideNavi {
+#pageHead .menuFix .menuFix-container .sideNavi {
     float: right;
     height: 60px;
 }
 
-#pageHead .menuFix .sideNavi ul {
+#pageHead .menuFix .menuFix-container .sideNavi ul {
     height: 100%;
     margin: 0;
 }
 
-#pageHead .menuFix .sideNavi ul li {
+#pageHead .menuFix .menuFix-container .sideNavi ul li {
     list-style: none;
     float: left;
 }
 
-#pageHead .menuFix .sideNavi ul li a {
+#pageHead .menuFix .menuFix-container .sideNavi ul li a {
     display: inline-block;
     padding: 18px 15px;
 }
 
-#pageHead .menuFix .sideNavi ul li a:hover {
+#pageHead .menuFix .menuFix-container .sideNavi ul li a:hover {
     opacity: 0.5;
 }
 
 /* パンくずナビ */
 
 #pageHead .topicPath {
+    width: 1250px;
+    box-sizing: border-box;
     font-size: 12px;
-    margin: 0 0 0 36px;
-    padding-top: 63px;
+    margin: 0 auto;
+    padding: 63px 0 0 36px;
 }
 
 #pageHead .topicPath a {
