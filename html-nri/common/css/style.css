@@ -371,13 +371,70 @@ body {
 /* メイン記事・企業情報 */
 
 #pageBodyMain .companyInfo {
-    width: 1000px;
+    width: 1020px;
     margin: 120px auto 0;
 }
 
 #pageBodyMain .companyInfo h2 {
     font-size: 20px;
+    font-weight: bold;
     border-top: 2px solid #333333;
     padding: 18px 0 30px;
     margin: 0;
+}
+
+#pageBodyMain .companyInfo .companyInfo-list {
+    width: 1020px;
+    border-top: 1px dotted #999999;
+    padding: 30px 0;
+}
+
+#pageBodyMain .companyInfo .companyInfo-list:nth-child(6) {
+    border-bottom: 1px dotted #999999;
+}
+
+#pageBodyMain .companyInfo .companyInfo-list h3 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.66;
+    font-weight: bold;
+}
+
+#pageBodyMain .companyInfo .companyInfo-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+#pageBodyMain .companyInfo .companyInfo-list ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#pageBodyMain .companyInfo .companyInfo-list ul li {
+    font-size: 14px;
+    list-style: none;
+    float: left;
+    width: 255px;
+    height: 41px;
+    position: relative;
+}
+
+#pageBodyMain .companyInfo .companyInfo-list ul li a {
+    color: #0C419A;
+    text-decoration: none;
+    width: 235px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    padding-left: 15px;
+}
+
+#pageBodyMain .companyInfo .companyInfo-list ul li a:before {
+    content: "⟩";
+    font-size: 2px;
+    position: absolute;
+    left: 0;
+    color: #333333;
 }
