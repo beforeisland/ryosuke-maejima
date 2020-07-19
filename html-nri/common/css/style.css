@@ -372,7 +372,7 @@ body {
 
 #pageBodyMain .companyInfo {
     width: 1020px;
-    margin: 120px auto 0;
+    margin: 120px auto 100px;
 }
 
 #pageBodyMain .companyInfo h2 {
@@ -431,10 +431,41 @@ body {
     padding-left: 15px;
 }
 
+#pageBodyMain .companyInfo .companyInfo-list ul li a:hover {
+    text-decoration: underline;
+}
+
 #pageBodyMain .companyInfo .companyInfo-list ul li a:before {
     content: "⟩";
     font-size: 2px;
     position: absolute;
     left: 0;
+    color: #333333;
+}
+
+/* 前のページに戻る */
+
+#pageBodyMain .companyInfo .pageBack {
+    margin-top: 70px;
+    font-size: 16px;
+    position: relative;
+}
+
+#pageBodyMain .companyInfo .pageBack a {
+    color: #0C419A;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+#pageBodyMain .companyInfo .pageBack a:hover {
+    text-decoration: underline;
+}
+
+#pageBodyMain .companyInfo .pageBack a:before {
+    content: "⟨";
+    font-size: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 30%;
     color: #333333;
 }
