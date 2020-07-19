@@ -652,3 +652,27 @@ body {
     color: inherit;
     padding-left: 15px;
 }
+
+/* 右下戻るアイコン */
+
+.pagetop {
+    width: 60px;
+    height: 60px;
+    background-color: #333333;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.pagetop p {
+    margin: 0;
+}
+
+.pagetop p a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 17.5px 22px;
+    display: inline-block;
+    text-align: center;
+}
