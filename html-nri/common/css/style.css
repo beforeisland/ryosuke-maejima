@@ -184,6 +184,12 @@ body {
 
 /* メイン記事 */
 
+#pageBodyMain .pageBodyMain-container .articleDetail:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
 #pageBodyMain .pageBodyMain-container .articleDetail h2 {
     color: #000000;
     font-size: 22px;
@@ -250,4 +256,32 @@ body {
 #pageBodyMain .pageBodyMain-container .articleDetail .btn a:hover {
     opacity: 0.7;
     transition: 0.2s linear;
+}
+
+/* メイン記事下リンク左右 */
+
+#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-left {
+    float: left;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-left a {
+    text-decoration: none;
+    color: #014C9A;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-left a:hover {
+    text-decoration: underline;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-right {
+    float: right;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-right a {
+    text-decoration: none;
+    color: #014C9A;
+}
+
+#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-right a:hover {
+    text-decoration: underline;
 }
