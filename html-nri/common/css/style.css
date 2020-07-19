@@ -509,7 +509,7 @@ body {
 /* サブ記事・リンク部分 */
 
 #pageBodySub {
-    margin: 50px auto 0;
+    margin: 50px auto;
     width: 1200px;
 }
 
@@ -602,3 +602,53 @@ body {
     text-decoration: underline;
 }
 
+/* フッター */
+#pageFoot {
+    border-top: 1px solid #CCCCCC;
+    padding: 70px 0 112px;
+}
+
+#pageFoot .footerMenu {
+    width: 1000px;
+    margin: 0 auto 15px;
+    padding: 0;
+}
+
+#pageFoot .footerMenu:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#pageFoot .footerMenu li {
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    border-left: 1px solid #999999;
+}
+
+#pageFoot .footerMenu li:first-child {
+    border-left: none;
+}
+
+#pageFoot .footerMenu li a {
+    color: #999999;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+#pageFoot .footerMenu li a:hover {
+    text-decoration: underline;
+}
+ 
+#pageFoot .copyright {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#pageFoot .copyright small {
+    font-size: 10px;
+    line-height: 1.8px;
+    color: inherit;
+    padding-left: 15px;
+}
