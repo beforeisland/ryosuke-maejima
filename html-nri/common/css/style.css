@@ -210,22 +210,19 @@ body {
     margin: 40px 0 30px;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail p {
+#page-body-main .page-body-main-container .article-detail .article-detail-text-container .article-detail-text {
     font-size: 16px;
     line-height: 1.875;
-}
-
-#pageBodyMain .pageBodyMain-container .articleDetail .articleDetail-Text1 {
-    margin: 0 0 16px 0;
-}
-
-#pageBodyMain .pageBodyMain-container .articleDetail .articleDetail-Text2 {
     margin: 0;
+}
+
+#page-body-main .page-body-main-container .article-detail .article-detail-text-container .article-detail-text:first-child {
+    margin-bottom: 16px;
 }
 
 /* ボタン */
 
-#pageBodyMain .pageBodyMain-container .articleDetail .btn {
+#page-body-main .page-body-main-container .article-detail .btn {
     margin: 40px auto 80px;
     width: 300px;
     height: 70px;
