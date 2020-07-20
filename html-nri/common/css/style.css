@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-
 body {
     color: #333333;
     font-family: 'Noto Sans JP', sans-serif;
@@ -7,14 +6,14 @@ body {
 
 /* [ヘッダー] */
 
-#pageHead .menuFix {
+#page-head .menu-fix {
     position: fixed;
     z-index: 1;
     background-color: #FFFFFF;
     width: 100%
 }
 
-#pageHead .menuFix .menuFix-container {
+#page-head .menu-fix .menu-fix-container {
     margin: 0 auto;
     width: 1250px;
     height: 60px;
@@ -22,7 +21,7 @@ body {
 
 /* ヘッダー全体float clear-fix */
 
-#pageHead .menuFix .menuFix-container:after {
+#page-head .menu-fix .menu-fix-container:after {
     content: "";
     clear: both;
     display: block;
@@ -30,25 +29,25 @@ body {
 
 /* サイトタイトルロゴ */
 
-#pageHead .menuFix .menuFix-container .siteTitle-logo {
+#page-head .menu-fix .menu-fix-container .site-title-logo {
     float: left;
     margin: 12px 0 12px 36px;
 }
 
 /* グローバルナビ */
 
-#pageHead .menuFix .menuFix-container .globalNavi {
+#page-head .menu-fix .menu-fix-container .global-navi {
     float: left;
     height: 60px;
 }
 
-#pageHead .menuFix .menuFix-container .globalNavi ul {
+#page-head .menu-fix .menu-fix-container .global-navi ul {
     padding-left: 160px;
     height: 100%;
     margin: 0;
 }
 
-#pageHead .menuFix .menuFix-container .globalNavi ul li {
+#page-head .menu-fix .menu-fix-container .global-navi ul li {
     list-style: none;
     float: left;
     font-weight: bold;
@@ -56,7 +55,7 @@ body {
     font-family: sans-serif;
 }
 
-#pageHead .menuFix .menuFix-container .globalNavi ul li a {
+#page-head .menu-fix .menu-fix-container .global-navi ul li a {
     color: #000000;
     text-decoration: none;
     display: inline-block;
@@ -64,44 +63,44 @@ body {
     margin: 0 5px
 }
 
-#pageHead .menuFix .menuFix-container .globalNavi ul li a:hover {
+#page-head .menu-fix .menu-fix-container .global-navi ul li a:hover {
     color: #0c419a;
 }
 
-#pageHead .menuFix .menuFix-container .globalNavi ul li a:hover {
+#page-head .menu-fix .menu-fix-container .global-navi ul li a:hover {
     transition: 0.2s linear;
     border-bottom: solid 2px #0c419a;
 }
 
 /* サイドナビ */
 
-#pageHead .menuFix .menuFix-container .sideNavi {
+#page-head .menu-fix .menu-fix-container .side-navi {
     float: right;
     height: 60px;
 }
 
-#pageHead .menuFix .menuFix-container .sideNavi ul {
+#page-head .menu-fix .menu-fix-container .side-navi ul {
     height: 100%;
     margin: 0;
 }
 
-#pageHead .menuFix .menuFix-container .sideNavi ul li {
+#page-head .menu-fix .menu-fix-container .side-navi ul li {
     list-style: none;
     float: left;
 }
 
-#pageHead .menuFix .menuFix-container .sideNavi ul li a {
+#page-head .menu-fix .menu-fix-container .side-navi ul li a {
     display: inline-block;
     padding: 18px 15px;
 }
 
-#pageHead .menuFix .menuFix-container .sideNavi ul li a:hover {
+#page-head .menu-fix .menu-fix-container .side-navi ul li a:hover {
     opacity: 0.5;
 }
 
 /* パンくずナビ */
 
-#pageHead .topicPath {
+#page-head .topic-path {
     width: 1250px;
     box-sizing: border-box;
     font-size: 12px;
@@ -109,12 +108,12 @@ body {
     padding: 63px 0 0 36px;
 }
 
-#pageHead .topicPath a {
+#page-head .topic-path a {
     text-decoration: none;
     color: #999999;
 }
 
-#pageHead .topicPath span {
+#page-head .topic-path span {
     color: #999999;
 }
 
@@ -122,12 +121,12 @@ body {
 
 /* メインビジュアル、テキスト */
 
-#pageBodyMain .mainVisual {
+#page-body-main .main-visual {
     position: relative;
     margin-top: 30px;
 }
 
-#pageBodyMain .mainVisual .mainVisualText {
+#page-body-main .main-visual .main-visual-text {
     color: #FFFFFF;
     position: absolute;
     top: 50px;
@@ -135,57 +134,58 @@ body {
     margin: 0 auto;
 }
 
-#pageBodyMain .mainVisual .mainVisualText p {
+#page-body-main .main-visual .main-visual-text p {
     margin: 0;
     font-size: 20px;
 }
 
-#pageBodyMain .mainVisual .mainVisualText h2 {
+#page-body-main .main-visual .main-visual-text h2 {
     margin: 16px 0 10px;
     font-size: 28px;
 }
 
 /* メインビジュアル、画像 */
 
-#pageBodyMain .mainVisual img {
+#page-body-main .main-visual img {
     height: 250;
     object-fit: cover;
 }
 
 /* ページボディサイズ格納 */
-#pageBodyMain .pageBodyMain-container {
+
+#page-body-main .page-body-main-container {
     width: 820px;
     margin: 0 auto;
 }
 
 /* snsリンクA */
 
-#pageBodyMain .pageBodyMain-container .snsLink-typeA {
+#page-body-main .page-body-main-container .sns-link-right {
     width: 172px;
     height: 34px;
     margin: 30px 0 0 628px;
 }
 
-#pageBodyMain .pageBodyMain-container .snsLink-typeA:after {
+#page-body-main .page-body-main-container .sns-link-right:after {
     content: "";
     clear: both;
     display: block;
 }
 
-#pageBodyMain .pageBodyMain-container .snsLink-typeA p {
+#page-body-main .page-body-main-container .sns-link-right p {
     float: left;
     margin: 6px 0;
     font-size: 12px;
     font-weight: bold;
 }
 
-#pageBodyMain .pageBodyMain-container .snsLink-typeA ul {
+#page-body-main .page-body-main-container .sns-link-right ul {
     float: right;
     margin: 0;
     padding: 0;
 }
 
-#pageBodyMain .pageBodyMain-container .snsLink-typeA ul li {
+#page-body-main .page-body-main-container .sns-link-right ul li {
     list-style: none;
     float: left;
     padding-left: 20px;
@@ -194,13 +194,13 @@ body {
 
 /* メイン記事 */
 
-#pageBodyMain .pageBodyMain-container .articleDetail:after {
+#page-body-main .page-body-main-container .article-detail:after {
     content: "";
     clear: both;
     display: block;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail h2 {
+#page-body-main .page-body-main-container .article-detail h2 {
     color: #000000;
     font-size: 22px;
     padding-left: 32px;
@@ -237,14 +237,14 @@ body {
     align-items: center;
     text-align: center;
     position: relative;
-} 
+}
 
-#pageBodyMain .pageBodyMain-container .articleDetail .btn:hover {
+#page-body-main .page-body-main-container .article-detail .btn:hover {
     opacity: 0.7;
     transition: 0.2s linear;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail .btn a {
+#page-body-main .page-body-main-container .article-detail .btn a {
     color: #FFFFFF;
     text-decoration: none;
     padding: 19px 21.29px;
@@ -254,7 +254,7 @@ body {
     background-position: 70% 65%;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail .btn a:before {
+#page-body-main .page-body-main-container .article-detail .btn a:before {
     color: #FFFFFF;
     content: "⟩";
     font-size: 5px;
@@ -263,42 +263,46 @@ body {
     bottom: 30px;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail .btn a:hover {
+#page-body-main .page-body-main-container .article-detail .btn a:hover {
     opacity: 0.7;
     transition: 0.2s linear;
 }
 
 /* メイン記事下リンク左右 */
 
-#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-left {
+#page-body-main .page-body-main-container .article-detail .article-link-left {
     float: left;
+    font-size: 16px;
+    line-height: 1.875;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-left a {
+#page-body-main .page-body-main-container .article-detail .article-link-left a {
     text-decoration: none;
     color: #014C9A;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-left a:hover {
+#page-body-main .page-body-main-container .article-detail .article-link-left a:hover {
     text-decoration: underline;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-right {
+#page-body-main .page-body-main-container .article-detail .article-link-right {
     float: right;
+    font-size: 16px;
+    line-height: 1.875;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-right a {
+#page-body-main .page-body-main-container .article-detail .article-link-right a {
     text-decoration: none;
     color: #014C9A;
 }
 
-#pageBodyMain .pageBodyMain-container .articleDetail .articleLink-right a:hover {
+#page-body-main .page-body-main-container .article-detail .article-link-right a:hover {
     text-decoration: underline;
 }
 
 /* メイン記事下6記事 */
 
-#pageBodyMain .pageBodyMain-container .articleNavi {
+#page-body-main .page-body-main-container .article-navi {
     width: 800px;
     height: 241px;
     margin: 40px auto 0;
@@ -307,25 +311,25 @@ body {
     box-sizing: border-box;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi h3 {
+#page-body-main .page-body-main-container .article-navi h3 {
     margin: 10px 0 20px;
     font-size: 16px;
     font-weight: bold;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi ul {
+#page-body-main .page-body-main-container .article-navi ul {
     margin: 0;
     padding: 0;
     width: 800px;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi ul:after {
+#page-body-main .page-body-main-container .article-navi ul:after {
     content: "";
     clear: both;
     display: block;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi ul li {
+#page-body-main .page-body-main-container .article-navi ul li {
     font-size: 16px;
     list-style: none;
     background-color: #FFFFFF;
@@ -336,32 +340,30 @@ body {
     position: relative;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi ul li:hover {
+#page-body-main .page-body-main-container .article-navi ul li:hover {
     background-color: #F4F4F4;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(3n+1) {
+#page-body-main .page-body-main-container .article-navi ul li:nth-child(3n+1) {
     margin-left: 0;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(3n) {
+#page-body-main .page-body-main-container .article-navi ul li:nth-child(3n) {
     margin-right: 0;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(1), {
+#page-body-main .page-body-main-container .article-navi ul li:nth-child(1), {
     height: 70px;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(2),
-#pageBodyMain .pageBodyMain-container .articleNavi ul li:nth-child(3) {
+#page-body-main .page-body-main-container .article-navi ul li:nth-child(2), #page-body-main .page-body-main-container .article-navi ul li:nth-child(3) {
     height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-#pageBodyMain .pageBodyMain-container .articleNavi ul li a {
+#page-body-main .page-body-main-container .article-navi ul li a {
     color: #0C419A;
     text-decoration: none;
     width: 239.98px;
@@ -370,22 +372,23 @@ body {
     display: inline-block;
 }
 
-#pageBodyMain .pageBodyMain-container .articleNavi ul li a:before {
+#page-body-main .page-body-main-container .article-navi ul li a:before {
     content: "⟩";
     font-size: 5px;
     position: absolute;
     left: 10px;
     bottom: 40%;
+    color: #333333;
 }
 
 /* メイン記事・企業情報 */
 
-#pageBodyMain .companyInfo {
+#page-body-main .company-info {
     width: 1020px;
     margin: 120px auto 100px;
 }
 
-#pageBodyMain .companyInfo h2 {
+#page-body-main .company-info h2 {
     font-size: 20px;
     font-weight: bold;
     border-top: 2px solid #333333;
@@ -393,35 +396,35 @@ body {
     margin: 0;
 }
 
-#pageBodyMain .companyInfo .companyInfo-list {
+#page-body-main .company-info .company-info-list {
     width: 1020px;
     border-top: 1px dotted #999999;
     padding: 30px 0;
 }
 
-#pageBodyMain .companyInfo .companyInfo-list:nth-child(6) {
+#page-body-main .company-info .company-info-list:nth-child(6) {
     border-bottom: 1px dotted #999999;
 }
 
-#pageBodyMain .companyInfo .companyInfo-list h3 {
+#page-body-main .company-info .company-info-list h3 {
     margin: 0;
     font-size: 16px;
     line-height: 1.66;
     font-weight: bold;
 }
 
-#pageBodyMain .companyInfo .companyInfo-list ul {
+#page-body-main .company-info .company-info-list ul {
     margin: 0;
     padding: 0;
 }
 
-#pageBodyMain .companyInfo .companyInfo-list ul:after {
+#page-body-main .company-info .company-info-list ul:after {
     content: "";
     clear: both;
     display: block;
 }
 
-#pageBodyMain .companyInfo .companyInfo-list ul li {
+#page-body-main .company-info .company-info-list ul li {
     font-size: 14px;
     list-style: none;
     float: left;
@@ -430,7 +433,7 @@ body {
     position: relative;
 }
 
-#pageBodyMain .companyInfo .companyInfo-list ul li a {
+#page-body-main .company-info .company-info-list ul li a {
     color: #0C419A;
     text-decoration: none;
     width: 235px;
@@ -441,11 +444,11 @@ body {
     padding-left: 15px;
 }
 
-#pageBodyMain .companyInfo .companyInfo-list ul li a:hover {
+#page-body-main .company-info .company-info-list ul li a:hover {
     text-decoration: underline;
 }
 
-#pageBodyMain .companyInfo .companyInfo-list ul li a:before {
+#page-body-main .company-info .company-info-list ul li a:before {
     content: "⟩";
     font-size: 2px;
     position: absolute;
@@ -455,23 +458,23 @@ body {
 
 /* 前のページに戻る */
 
-#pageBodyMain .companyInfo .pageBack {
+#page-body-main .company-info .pageBack {
     margin-top: 70px;
     font-size: 16px;
     position: relative;
 }
 
-#pageBodyMain .companyInfo .pageBack a {
+#page-body-main .company-info .pageBack a {
     color: #0C419A;
     text-decoration: none;
     padding-left: 15px;
 }
 
-#pageBodyMain .companyInfo .pageBack a:hover {
+#page-body-main .company-info .pageBack a:hover {
     text-decoration: underline;
 }
 
-#pageBodyMain .companyInfo .pageBack a:before {
+#page-body-main .company-info .pageBack a:before {
     content: "⟨";
     font-size: 2px;
     position: absolute;
@@ -482,7 +485,7 @@ body {
 
 /* メイン記事・SNSリンクタイプB */
 
-#pageBodyMain .snsLink-typeB {
+#page-body-main .sns-link-center {
     padding: 30px 0;
     border-top: 2px solid #999999;
     border-bottom: 2px solid #999999;
@@ -491,13 +494,13 @@ body {
     align-items: center;
 }
 
-#pageBodyMain .snsLink-typeB:after {
+#page-body-main .sns-link-center:after {
     content: "";
     clear: both;
     display: block;
 }
 
-#pageBodyMain .snsLink-typeB p {
+#page-body-main .sns-link-center p {
     float: left;
     font-size: 20px;
     font-weight: bold;
@@ -505,12 +508,12 @@ body {
     margin: 0;
 }
 
-#pageBodyMain .snsLink-typeB ul {
+#page-body-main .sns-link-center ul {
     margin: 0;
     padding: 0;
 }
 
-#pageBodyMain .snsLink-typeB ul li {
+#page-body-main .sns-link-center ul li {
     float: left;
     list-style: none;
     margin: 0 0 0 40px;
@@ -518,33 +521,33 @@ body {
 
 /* サブ記事・リンク部分 */
 
-#pageBodySub {
+#page-body-sub {
     margin: 50px auto;
     width: 1200px;
 }
 
-#pageBodySub:after {
+#page-body-sub:after {
     content: "";
     clear: both;
     display: block;
 }
 
-#pageBodySub .localNavi {
+#page-body-sub .local-navi {
     float: left;
     box-sizing: border-box;
     width: 280px;
 }
 
-#pageBodySub .localNavi:nth-child(-n+4) {
+#page-body-sub .local-navi:nth-child(-n+4) {
     height: 341px;
 }
 
-#pageBodySub .localNavi:nth-child(n+5) {
+#page-body-sub .local-navi:nth-child(n+5) {
     height: 304px;
     margin-top: 80px;
 }
 
-#pageBodySub .localNavi .localNavi-list p {
+#page-body-sub .local-navi .local-navi-list p {
     font-size: 16px;
     line-height: 1.5;
     font-weight: bold;
@@ -552,14 +555,14 @@ body {
     margin: 0;
 }
 
-#pageBodySub .localNavi .localNavi-list p a {
+#page-body-sub .local-navi .local-navi-list p a {
     color: inherit;
     text-decoration: none;
     position: relative;
     padding-left: 10px;
 }
 
-#pageBodySub .localNavi .localNavi-list p a:before {
+#page-body-sub .local-navi .local-navi-list p a:before {
     content: "⟩";
     font-size: 2px;
     position: absolute;
@@ -568,38 +571,38 @@ body {
     color: #333333;
 }
 
-#pageBodySub .localNavi .localNavi-list p a:hover {
+#page-body-sub .local-navi .local-navi-list p a:hover {
     text-decoration: underline;
 }
 
-#pageBodySub .localNavi .localNavi-list ul {
+#page-body-sub .local-navi .local-navi-list ul {
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
 
-#pageBodySub .localNavi .localNavi-list ul li {
+#page-body-sub .local-navi .local-navi-list ul li {
     list-style: none;
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 16px;
 }
 
-#pageBodySub .localNavi .localNavi-list ul li:first-child {
+#page-body-sub .local-navi .local-navi-list ul li:first-child {
     margin-top: 13px;
 }
 
-#pageBodySub .localNavi .localNavi-list ul li:last-child {
+#page-body-sub .local-navi .local-navi-list ul li:last-child {
     margin-bottom: 0;
 }
 
-#pageBodySub .localNavi .localNavi-list ul li a {
+#page-body-sub .local-navi .local-navi-list ul li a {
     color: inherit;
     text-decoration: none;
     position: relative;
     padding-left: 10px;
 }
 
-#pageBodySub .localNavi .localNavi-list ul li a:before {
+#page-body-sub .local-navi .local-navi-list ul li a:before {
     content: "⟩";
     font-size: 2px;
     position: absolute;
@@ -608,55 +611,56 @@ body {
     color: #333333;
 }
 
-#pageBodySub .localNavi .localNavi-list ul li a:hover {
+#page-body-sub .local-navi .local-navi-list ul li a:hover {
     text-decoration: underline;
 }
 
 /* フッター */
-#pageFoot {
+
+#page-foot {
     border-top: 1px solid #CCCCCC;
     padding: 70px 0 112px;
 }
 
-#pageFoot .footerMenu {
+#page-foot .footer-menu {
     width: 1000px;
     margin: 0 auto 15px;
     padding: 0;
 }
 
-#pageFoot .footerMenu:after {
+#page-foot .footer-menu:after {
     content: "";
     clear: both;
     display: block;
 }
 
-#pageFoot .footerMenu li {
+#page-foot .footer-menu li {
     list-style: none;
     float: left;
     font-size: 12px;
     border-left: 1px solid #999999;
 }
 
-#pageFoot .footerMenu li:first-child {
+#page-foot .footer-menu li:first-child {
     border-left: none;
 }
 
-#pageFoot .footerMenu li a {
+#page-foot .footer-menu li a {
     color: #999999;
     text-decoration: none;
     padding: 0 15px;
 }
 
-#pageFoot .footerMenu li a:hover {
+#page-foot .footer-menu li a:hover {
     text-decoration: underline;
 }
- 
-#pageFoot .copyright {
+
+#page-foot .copyright {
     width: 1000px;
     margin: 0 auto;
 }
 
-#pageFoot .copyright small {
+#page-foot .copyright small {
     font-size: 10px;
     line-height: 1.8px;
     color: inherit;
@@ -665,7 +669,7 @@ body {
 
 /* 右下戻るアイコン */
 
-.pagetop {
+.page-top-icon {
     width: 60px;
     height: 60px;
     background-color: #333333;
@@ -674,11 +678,11 @@ body {
     right: 0;
 }
 
-.pagetop p {
+.page-top-icon p {
     margin: 0;
 }
 
-.pagetop p a {
+.page-top-icon p a {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 25px;
