@@ -15,7 +15,7 @@ body {
 
 #page-head .menu-fix .menu-fix-container {
     margin: 0 auto;
-    width: 1250px;
+    min-width: 1250px;
     height: 60px;
 }
 
@@ -39,20 +39,26 @@ body {
     height: 30px;
 }
 
+/* ヘッダーナビ右寄せ */
+
+#page-head .menu-fix .menu-fix-container .header-navi-container {
+    float: right;
+}
+
 /* グローバルナビ */
 
-#page-head .menu-fix .menu-fix-container .global-navi {
+#page-head .menu-fix .menu-fix-container .header-navi-container .global-navi {
     float: left;
     height: 60px;
 }
 
-#page-head .menu-fix .menu-fix-container .global-navi ul {
-    padding-left: 160px;
+#page-head .menu-fix .menu-fix-container .header-navi-container .global-navi ul {
+    padding: 0;
     height: 100%;
     margin: 0;
 }
 
-#page-head .menu-fix .menu-fix-container .global-navi ul li {
+#page-head .menu-fix .menu-fix-container .header-navi-container .global-navi ul li {
     list-style: none;
     float: left;
     font-weight: bold;
@@ -60,7 +66,7 @@ body {
     font-family: sans-serif;
 }
 
-#page-head .menu-fix .menu-fix-container .global-navi ul li a {
+#page-head .menu-fix .menu-fix-container .header-navi-container .global-navi ul li a {
     color: #000000;
     text-decoration: none;
     display: inline-block;
@@ -68,42 +74,43 @@ body {
     margin: 0 5px
 }
 
-#page-head .menu-fix .menu-fix-container .global-navi ul li a:hover {
+#page-head .menu-fix .menu-fix-container .header-navi-container .global-navi ul li a:hover {
     color: #0c419a;
 }
 
-#page-head .menu-fix .menu-fix-container .global-navi ul li a:hover {
+#page-head .menu-fix .menu-fix-container .header-navi-container .global-navi ul li a:hover {
     transition: 0.2s linear;
     border-bottom: solid 2px #0c419a;
 }
 
 /* サイドナビ */
 
-#page-head .menu-fix .menu-fix-container .side-navi {
+#page-head .menu-fix .menu-fix-container .header-navi-container .side-navi {
     float: right;
     height: 60px;
 }
 
-#page-head .menu-fix .menu-fix-container .side-navi ul {
+#page-head .menu-fix .menu-fix-container .header-navi-container .side-navi ul {
     height: 100%;
     margin: 0;
+    padding: 0 0 0 20px;
 }
 
-#page-head .menu-fix .menu-fix-container .side-navi ul li {
+#page-head .menu-fix .menu-fix-container .header-navi-container .side-navi ul li {
     list-style: none;
     float: left;
 }
 
-#page-head .menu-fix .menu-fix-container .side-navi ul li a {
+#page-head .menu-fix .menu-fix-container .header-navi-container .side-navi ul li a {
     display: inline-block;
     padding: 18px 15px;
 }
 
-#page-head .menu-fix .menu-fix-container .side-navi ul li a:hover {
+#page-head .menu-fix .menu-fix-container .header-navi-container .side-navi ul li a:hover {
     opacity: 0.5;
 }
 
-#page-head .menu-fix .menu-fix-container .side-navi ul li a img {
+#page-head .menu-fix .menu-fix-container .header-navi-container .side-navi ul li a img {
     width: 20px;
     height: 20px;
 }
