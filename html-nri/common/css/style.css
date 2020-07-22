@@ -690,11 +690,9 @@ body {
 }
 
 #page-foot .copyright {
+    display: block;
     width: 1000px;
     margin: 0 auto;
-}
-
-#page-foot .copyright small {
     font-size: 10px;
     line-height: 1.8px;
     color: inherit;
