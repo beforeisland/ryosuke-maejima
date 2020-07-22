@@ -379,7 +379,7 @@ body {
     margin-right: 0;
 }
 
-#page-body-main .page-body-main-container .article-navi ul li:nth-child(1), {
+#page-body-main .page-body-main-container .article-navi ul li:nth-child(1) {
     height: 70px;
 }
 
