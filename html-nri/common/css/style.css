@@ -701,7 +701,7 @@ body {
 
 /* 右下戻るアイコン */
 
-.page-top-icon {
+#page-foot .page-top-icon {
     width: 60px;
     height: 60px;
     background-color: #333333;
@@ -710,11 +710,11 @@ body {
     right: 0;
 }
 
-.page-top-icon p {
+#page-foot .page-top-icon p {
     margin: 0;
 }
 
-.page-top-icon p a {
+#page-foot .page-top-icon p a {
     color: #FFFFFF;
     text-decoration: none;
     font-size: 25px;
